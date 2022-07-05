@@ -271,30 +271,6 @@ const Projects = () => {
           <h5></h5>
         </div>
       </div>
-
-      <div className="other-projects">
-        <div className="other-projects__list">
-          <span className="other-projects__title">Other Notable Projects:</span>
-          <a className="other-projects__project" href="http://ateball.surge.sh">
-            ATE-BALL
-          </a>{" "}
-          &#9679;
-          <a className="other-projects__project" href="http://wow-iss.surge.sh">
-            WOW-ISS
-          </a>
-          &#9679;
-          <a className="other-projects__project" href="http://chee-yun.com">
-            CHEE-YUN
-          </a>{" "}
-          &#9679;
-          <a
-            className="other-projects__project"
-            href="http://ortizlu.com/Space-Dash"
-          >
-            SPACE-DASH
-          </a>
-        </div>
-      </div>
     </section>
   );
 };

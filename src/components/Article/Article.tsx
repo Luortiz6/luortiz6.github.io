@@ -43,7 +43,7 @@ const Article = ({ children }: PropsWithChildren) => {
       <Nav links={links} />
       <section className="article-content">
         <div className="back-btn">
-          <a className="back-btn__link" href="./blog">
+          <a className="back-btn__link" href="/blog">
             ← BACK
           </a>
         </div>
