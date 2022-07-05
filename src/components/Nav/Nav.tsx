@@ -5,7 +5,7 @@ export type Link = {
   href: string;
   title: string;
   className?: string;
-  download?: boolean;
+  download?: string;
   id: string;
 };
 

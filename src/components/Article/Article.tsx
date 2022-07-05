@@ -7,10 +7,10 @@ import Footer from "../Footer/Footer";
 import Head from "../Head/Head";
 import Nav from "../Nav/Nav";
 
+import Resume from "../../files/Resume.pdf";
 import "./Article.scss";
 
 deckDeckGoHighlightElement();
-
 const Article = ({ children }: PropsWithChildren) => {
   const links = [
     {
@@ -26,10 +26,10 @@ const Article = ({ children }: PropsWithChildren) => {
       id: "article-home",
     },
     {
-      href: "Resume.pdf",
+      href: Resume,
       title: "RESUME",
       className: "resume-btn-desktop",
-      download: false,
+      download: "Ortiz-Luis-Resume.pdf",
       id: "article-resume",
     },
   ];

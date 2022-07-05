@@ -8,6 +8,8 @@ import Nav from "../components/Nav/Nav";
 import Head from "../components/Head/Head";
 import { getArticles } from "../hooks/getArticles";
 
+import Resume from "../files/Resume.pdf";
+
 const blog = () => {
   const links = [
     {
@@ -23,10 +25,10 @@ const blog = () => {
       id: "blog-home",
     },
     {
-      href: "Resume.pdf",
+      href: Resume,
       title: "RESUME",
       className: "resume-btn-desktop",
-      download: false,
+      download: "Ortiz-Luis-Resume.pdf",
       id: "blog-resume",
     },
   ];

@@ -7,3 +7,6 @@ declare module "*.png" {
 declare module "*.mp4" {
   export default "" as string;
 }
+declare module "*.pdf" {
+  export default "" as string;
+}

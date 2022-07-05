@@ -8,6 +8,8 @@ import Head from "../components/Head/Head";
 import Header from "../components/Header/Header";
 import Projects from "../components/Projects/Projects";
 
+import Resume from "../files/Resume.pdf";
+
 const IndexPage = () => {
   const links = [
     {
@@ -23,10 +25,10 @@ const IndexPage = () => {
       id: "index-work",
     },
     {
-      href: "Resume.pdf",
+      href: Resume,
       title: "RESUME",
       className: "resume-btn-desktop",
-      download: false,
+      download: "Ortiz-Luis-Resume.pdf",
       id: "index-resume",
     },
   ];
