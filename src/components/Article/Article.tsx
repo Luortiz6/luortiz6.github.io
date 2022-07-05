@@ -35,7 +35,7 @@ const Article = ({ children }: PropsWithChildren) => {
   ];
   const pathname = (
     typeof window !== "undefined" ? window.location.pathname : ""
-  ).substring(1);
+  ).slice(1, -1);
   const { title, image, date } = getArticles(pathname)[0];
   return (
     <div>
