@@ -1,5 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import og from "../../images/thumb.png";
 
 type HeadProps = {
   title: string;
@@ -81,6 +82,7 @@ const Head = ({ title }: HeadProps) => {
         sizes="16x16"
         href="favicon/favicon-16x16.png"
       />
+      <meta property="og:image" content={og} />
       <meta name="msapplication-TileColor" content="#1f1f1f" />
       <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
       <meta name="theme-color" content="#1f1f1f" />
